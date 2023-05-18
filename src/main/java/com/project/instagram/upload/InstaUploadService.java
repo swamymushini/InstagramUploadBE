@@ -19,7 +19,7 @@ public class InstaUploadService {
 
 	public void uploadFile(String imageUrl) throws Exception {
 
-		String accessToken = "EAAWwCHwDz0UBABB1G5eFbRjjHyJHOVP9qjPjO6mGLaEpam6nHTx1ZBZCtGNPIfSSvvJn9SP3uA7ZA2QJJXZCQsqmZBSt6wE8rw22mdbyVAZBqryu1P1TY54f0MynLwteusPC3FHcMdW9ZCGE5aCkcuBvZCT1E6bZAXpwEBTRZCQOWDy72uCUXPb8El";
+		String accessToken = "EAAWwCHwDz0UBAPekZB7qZCTLpkMtNWU3vjmqasy4MBh0NwQzaSNh3UKCwo7l4iO2uuNW8QsqRrirdz6MBwiZCIHi9GhXzN7QDTtCccT2UM4FSceH9L16wFG7JKBnvprKPjnKIO2QhCwktbV08A2ZCMd14wkSwcbbBhydwcf6qoQUBWfR46Qr";
 
 		RestTemplate restTemplate = new RestTemplate();
 
