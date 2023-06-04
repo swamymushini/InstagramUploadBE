@@ -19,7 +19,7 @@ public class S3UploaderService {
 
 	public String uploadToBucket(BufferedImage image) throws IOException {
 		System.out.println("Uploading image to bucket...");
-		String bucketName = "instagramuploads";
+		String bucketName = "instagramuploadedposts";
 		String key = "upload" + System.currentTimeMillis();
 
 		S3Client s3Client = S3Client.builder().region(Region.US_EAST_1)
